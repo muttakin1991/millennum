@@ -144,6 +144,17 @@ gallery section
     background-color: #143258;
 }
 
+.partner-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.partner-img img {
+    border-radius: 50%;
+}
+
 /* ************************************************************************
 last section section
 **************************************************************************** */
