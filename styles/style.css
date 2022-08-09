@@ -29,15 +29,17 @@ nav bar section
 /* .nav-link {
     color: black;
 } */
+.nav-link {
+    border-bottom: 5px solid transparent;
+}
 
 .nav-link:hover {
     background-color: #0099ff;
     color: white !important;
+    border-bottom-color: red ;
 }
 
-.nav-link:hover {
-    border-bottom: 5px solid black;
-}
+.nav-link:hover {}
 
 
 
@@ -85,7 +87,7 @@ info section
 }
 
 /* ************************************************************************
-info section
+service section
 **************************************************************************** */
 
 
@@ -129,7 +131,6 @@ gallery section
 **************************************************************************** */
 .gallery-slider {
     border-bottom: 10px solid #ff9c00;
-    padding-bottom: 40px;
 }
 
 .prev-btn,
@@ -145,8 +146,8 @@ gallery section
 }
 
 .partner-img {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     background-color: white;
 }
