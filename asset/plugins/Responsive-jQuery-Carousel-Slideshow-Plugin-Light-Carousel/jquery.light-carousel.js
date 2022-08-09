@@ -34,11 +34,11 @@
 					slideLength = -1, // Number of slides
 					pause = false; // true when user select a slide
 
-				for(var i = 0; i < $('.carousel-slide li').length; i++) {
-					var caption = $('.carousel-slide li').eq(i).children('img').attr('alt');
-					$('.carousel-slide li').eq(i).append('<div class="caption"><span>' + caption + '</span></div>');
-					slideLength++;
-				} // Inserting captions and counting slides
+				// for(var i = 0; i < $('.carousel-slide li').length; i++) {
+				// 	var caption = $('.carousel-slide li').eq(i).children('img').attr('alt');
+				// 	$('.carousel-slide li').eq(i).append('<div class="caption"><span>' + caption + '</span></div>');
+				// 	slideLength++;
+				// } // Inserting captions and counting slides
 
 				$('.thumbnails img').wrap("<div></div>"); // for the selected thumbnail color
 

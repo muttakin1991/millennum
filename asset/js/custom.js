@@ -34,13 +34,13 @@ $('.responsive').slick({
     ]
 });
 
-
 $('.carousel-slide').lightCarousel({
 
     interval: 5000,
 
     changeHeight: true,
 
-    slideshow: true
+    slideshow: false
 
 });
+
