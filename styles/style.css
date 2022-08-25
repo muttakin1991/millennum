@@ -57,6 +57,7 @@ slider section
 
 .apply-btn {
     border: none;
+    text-decoration: none;
     padding: 10px 15px;
     background-color: #ff9c00;
     border-radius: 15px;
